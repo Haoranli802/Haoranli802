@@ -1,11 +1,12 @@
-- 👋 Hi, I’m @Haoranli802 Haoran Li (Evan)
-- 👀 I’m interested in looking for a software engineering internship in the summer of 2025
-- 🌱 I had my undergraduate degree in computer science from the University of California, Irvine
-- 🏫 I will continue my graduate study at the University of Illinois, Urbana-Champaign
-- 💞️ I had two internships, one as a machine learning intern and the other one as a backend developing intern
-- 📫 How to reach me: the best way to reach me is by email
+1 Word Prediction with Word2Vec and LSTM
+How do the RMSE of the predicted words compare with and without stop words (you can alternatively plot the histogram of F-scores of the matched closest words)? 
+The RMSE values of the collection with stop words are all smaller than the RMSE values of the collection without stop words.
 
-<!---
-Haoranli802/Haoranli802 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+How does the quality of the prediction compare? 
+The quality of the prediction seems improved with stop words.
+
+
+2 Word Prediction with Transformers
+EXTRA CREDIT:
+Which one is better? 
+One average, BERT has a better performace in terms of Cosine Similarities.
